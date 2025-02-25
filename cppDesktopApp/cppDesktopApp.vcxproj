@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="app.h" />
+    <ClInclude Include="app1.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="app.cpp" />
