@@ -79,5 +79,8 @@ int APIENTRY wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR lpCmd
     if (!app.Init()) {
         return FALSE;
     }
+    else if (hPrevInstance) {
+        MessageBox(nullptr, L"Previous instance detected!", L"Warning", MB_OK | MB_ICONWARNING);
+	}
     return app.Run();
 }
