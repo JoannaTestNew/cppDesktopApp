@@ -80,4 +80,5 @@ int APIENTRY wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR lpCmd
         return FALSE;
     }
     return app.Run();
+    //this is the change from local
 }
